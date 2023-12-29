@@ -1,5 +1,3 @@
-console.log("Client Side JavaScript is loaded!!");
-
 fetch("https://puzzle.mead.io/puzzle")
   .then((response) => {
     return response.json(); // Fix: Added return statement
@@ -16,8 +14,6 @@ const search = document.querySelector("input");
 const messageOne = document.querySelector("#message-1");
 const messageTwo = document.querySelector("#message-2"); // Fix: Corrected typo
 
-messageOne.textContent = "Client JavaScript"; // Fix: Corrected typo
-
 weatherForm.addEventListener("submit", (e) => {
   e.preventDefault();
 
@@ -29,7 +25,7 @@ weatherForm.addEventListener("submit", (e) => {
   messageOne.textContent = "Loading...";
   messageTwo.textContent = "";
 
-  fetch("http://localhost:3000/weather?address=" + location).then(
+  fetch("/weather?address=" + location).then(
     (response) => {
       return response.json(); // Fix: Added return statement
     }
