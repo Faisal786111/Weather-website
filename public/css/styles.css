@@ -1,0 +1,54 @@
+body {
+    color : #333333;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+footer {
+    color: #888888;
+    border-top: 1px solid #e0dada;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+header a {
+    text-decoration: none;
+    color: #888888;
+    /* border: 2px solid green; */
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+header  {
+   text-align: center;
+}
+
+.potrait {
+    display: block;
+    width: 250px;
+    height: 250px;
+    margin: 15px auto;   
+}
+
+input { 
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+button { 
+    cursor: pointer;
+    border: 1px solid #888888;
+    padding: 8px;
+    background: #888888;
+    color: #cccccc;
+}
+
