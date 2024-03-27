@@ -32,7 +32,7 @@ Users should be able to identify the weather of their area using this website.
 
 ### Links
 
-- [Live Site URL](https://faisal786111.github.io/FAQ/)
+- [Live Site URL](https://weather-web-hgtf.onrender.com/)
 
 ## My Process
 
